@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Night - About Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-white text-dark">
+
+    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom fixed-top shadow-sm">
+            <div class="container">
+                <a class="navbar-brand fw-bold text-dark" href="index.html"> Movie Night</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="movies.html">Movies</a></li>
+                        <li class="nav-item"><a class="nav-link active fw-semibold" href="about.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="tickets.html">Tickets</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contactus.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    
+    <main style="margin-top: 100px;" class="py-4">
+        
+        
+        <div class="container text-center mb-5">
+            <h1 class="fw-bold display-5">About Movie Night</h1>
+            <p class="text-muted">Discover our story, our passion for cinema, and what makes every screening special.</p>
+        </div>
+
+        
+        <section class="container py-4">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <h2 class="fw-bold mb-3">Our Cinematic Journey</h2>
+                    <p class="text-muted lh-lg">
+                        Movie Night was founded out of a shared love for immersive storytelling and community-driven cinema experiences. We believe that watching a great film is more than just entertainment it's an experience that brings people together. From timeless family adventures to classic holiday favorites, our goal is to recreate the magic of the silver screen for everyone.
+                    </p>
+                    <button type="button" class="btn btn-dark rounded-pill px-4 py-2 mt-2" onclick="location.href='movies.html'">Explore Our Lineup</button>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/cinema.jpg" class="img-fluid rounded-4 shadow-sm w-100 object-fit-cover" style="height: 320px;" alt="Cinema atmosphere">
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="container py-5">
+            <div class="row align-items-center g-5 flex-lg-row-reverse">
+                <div class="col-lg-6">
+                    <h2 class="fw-bold mb-3">The Ultimate Movie Snack</h2>
+                    <p class="text-muted lh-lg">
+                        No movie night is complete without the classic comforts of fresh, warm popcorn and great company. We focus on curating cozy, welcoming environments where you can kick back, relax, and lose yourself in the story. Every detail is designed to make you feel right at home while enjoying top-tier cinema.
+                    </p>
+                    <button type="button" class="btn btn-dark rounded-pill px-4 py-2 mt-2" onclick="location.href='tickets.html'">Book Your Tickets</button>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/popcorn.jpg" class="img-fluid rounded-4 shadow-sm w-100 object-fit-cover" style="height: 320px;" alt="Fresh popcorn">
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Frequently Asked Questions</h2>
+                <p class="text-muted">Got questions? We've got answers.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item border-0 shadow-sm rounded-3 mb-3 overflow-hidden">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What types of movies do you feature?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-muted">
+                                    We feature a diverse mix of family favorites, classic adventures, animated masterpieces, and holiday specials to ensure there is something for everyone.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 shadow-sm rounded-3 mb-3 overflow-hidden">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How do I purchase or reserve tickets?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-muted">
+                                    You can easily reserve your seats by heading over to our Tickets page, selecting your preferred movie, and filling out the quick reservation form.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 shadow-sm rounded-3 mb-3 overflow-hidden">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Can I book private screenings for groups?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-muted">
+                                    Yes! We accommodate private group bookings and special events. Simply reach out to us through our Contact Us page with your group details.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    
+    <footer class="bg-white text-dark text-center py-4 border-top mt-5">
+        <div class="container">
+            <p class="mb-0 text-muted">&copy; 2026 Movie Night. All rights reserved.</p>
+        </div>
+    </footer>
+
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
