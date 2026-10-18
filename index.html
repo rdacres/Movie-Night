@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Night - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-white text-dark">
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom fixed-top shadow-sm">
+            <div class="container">
+                <a class="navbar-brand fw-bold text-dark" href="index.html"> Movie Night</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active fw-semibold" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="movies.html">Movies</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="tickets.html">Tickets</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contactus.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="main-content-home">
+        
+
+        <section class="container-fluid bg-light py-5 text-center border-bottom position-relative overflow-hidden">
+            <div class="container py-4 position-relative">
+                <h1 class="display-4 fw-bold mb-3"> Welcome To Movie Night</h1>
+                <p class="lead text-muted mb-4">Your ultimate destination for family adventures, classics, and unforgettable cinema experiences.</p>
+                <button type="button" class="btn btn-dark rounded-pill px-4 py-2 shadow-sm" onclick="location.href='movies.html'">Browse All Movies</button>
+            </div>
+        </section>
+
+        <section class="mb-5">
+    <div class="text-center mb-4">
+      <h2 class="display-6 fw-bold border-bottom pb-2 d-inline-block">Featured Movies</h2>
+      <p class="text-muted">Check out what's currently trending on our big screens!</p>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-md-10">
+        <div id="movieCarousel" class="carousel slide shadow rounded" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#movieCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#movieCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#movieCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner rounded">
+            <div class="carousel-item active">
+              <img src="images/jumanji.jpg" class="d-block w-100 carousel-img" alt="Featured Movie 1">
+              <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-2">
+                <h5 class="mb-1">Action Blockbuster</h5>
+                <p class="small mb-0">Book your tickets early for this weekend!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/thebfg.jpg" class="d-block w-100 carousel-img" alt="Featured Movie 2">
+              <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-2">
+                <h5 class="mb-1">Family Movie Night</h5>
+                <p class="small mb-0">Bring the whole family for a wonderful evening.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/thenightmarebeforechristmas.jpg" class="d-block w-100 carousel-img" alt="Featured Movie 3">
+              <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-2">
+                <h5 class="mb-1">Late Night Thrillers</h5>
+                <p class="small mb-0">Catch our late-night suspense line-up.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#movieCarousel" data-bs-slide-to="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#movieCarousel" data-bs-slide-to="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+        </section>
+        <section class="bg-light py-5 border-top border-bottom">
+            <div class="container text-center py-3">
+                <h2 class="fw-bold mb-3">About Movie Night</h2>
+                <p class="text-muted mx-auto mb-4 about-description">
+                    We are a collective of film lovers dedicated to bringing communities together through great stories and unforgettable cinema magic.
+                </p>
+                <button type="button" class="btn btn-dark rounded-pill px-4 py-2 shadow-sm" onclick="location.href='about.html'">Learn More About Us</button>
+            </div>
+        </section>
+
+        <section class="container py-5 text-center">
+            <div class="py-3">
+                <h2 class="fw-bold mb-3">Get in Touch</h2>
+                <p class="text-muted mb-4">Have questions about screenings, private bookings, or group tickets? Drop us a line!</p>
+                <button type="button" class="btn btn-dark rounded-pill px-4 py-2 shadow-sm" onclick="location.href='contactus.html'">Contact Us</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-white text-dark text-center py-4 border-top">
+        <div class="container">
+            <p class="mb-0 text-muted">&copy; 2026 Movie Night. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
